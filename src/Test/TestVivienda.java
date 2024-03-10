@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package Test;
+import Catalogo.Catalogo;
+import Catalogo.CatalogoImpl;
 import inmobiliaria.mno.Operacion;
 import inmobiliaria.mno.Vivienda;
 import inmobiliaria.mno.ViviendaImpl;
@@ -55,6 +57,20 @@ public class TestVivienda {
         System.out.println("Cual tiene mayor precio por metro cuadrado?: " + v1.getcomparadorDeViviendas(v3));
         //System.out.println("");
     
+         Catalogo catalogo = new CatalogoImpl();
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     
     }
    

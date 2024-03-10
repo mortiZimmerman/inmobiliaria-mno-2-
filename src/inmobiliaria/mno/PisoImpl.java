@@ -37,9 +37,18 @@ this.puerta = puerta;
 
 
     //EJERCICIO 4
-        //El piso al ser heredado de viviendaImpl me parece que no se necesita hacer el euqlas ya que está hecho
-        //corrijeme si me equivoco pero así lohicimos en el examen.
-
+ /**
+     * Dice si dos pisos son iguales segun sus propiedades
+     * 
+     */
+        public boolean equals(Object o){
+        boolean r = false;
+            if ( o instanceof Piso) {
+                 Piso p = (Piso) o;
+                 r = super.equals(o) && this.planta == p.getPlanta() && this.puerta == p.getPuerta();
+            }
+        return r;
+        }
 
 
 }
